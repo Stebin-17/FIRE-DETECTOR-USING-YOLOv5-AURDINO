@@ -9,8 +9,8 @@ Fire detection task aims to identify fire or flame in a video and put a bounding
 Clone this repo and use the following script to install [YOLOv5](https://github.com/ultralytics/yolov5). 
 ```
 # Clone
-git clone https://github.com/spacewalk01/Yolov5-Fire-Detection
-cd Yolov5-Fire-Detection
+[https://github.com/Stebin-17/FIRE-DETECTOR-USING-YOLOv5-AURDINO]
+cd FIRE-DETECTOR-USING-YOLOv5-AURDINO
 
 # Install yolov5
 git clone https://github.com/ultralytics/yolov5  
@@ -18,6 +18,10 @@ cd yolov5
 pip install -r requirements.txt
 ```
 
+#### FOR DETECTING USING THE PRETRAINED FIRE DETECTOR MODEL
+```
+python detect.py --source 0 --weights models\best.pt --conf 0.2
+```
 
 #### Training
 I set up ```train.ipynb``` script for training the model from scratch. To train the model, download [Fire-Dataset](https://drive.google.com/file/d/1TQKA9nzo0BVwtmojmSusDt5j02KWzIu9/view?usp=sharing) and put it in ```datasets``` folder. This dataset contains samples from both [Fire & Smoke](https://www.kaggle.com/dataclusterlabs/fire-and-smoke-dataset) and [Fire & Guns](https://www.kaggle.com/atulyakumar98/fire-and-gun-dataset) datasets on Kaggle. I filtered out images and annotations that contain smokes & guns as well as images with low resolution, and then changed fire annotation's label in annotation files.
