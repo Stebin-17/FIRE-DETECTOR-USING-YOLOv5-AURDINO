@@ -14,7 +14,7 @@ In this project Aurdino uno board has been used for obtaining the output. The ci
 Clone this repo and use the following script to install [YOLOv5](https://github.com/ultralytics/yolov5). 
 ```
 # Clone
-[https://github.com/Stebin-17/FIRE-DETECTOR-USING-YOLOv5-AURDINO]
+git clone https://github.com/Stebin-17/FIRE-DETECTOR-USING-YOLOv5-AURDINO
 cd FIRE-DETECTOR-USING-YOLOv5-AURDINO
 
 # Install yolov5
