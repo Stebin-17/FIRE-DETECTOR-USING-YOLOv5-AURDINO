@@ -5,6 +5,11 @@ Fire detection task aims to identify fire or flame in a video and put a bounding
   <img src="results/result.gif" />
 </p>
 
+
+## IOT-DIAGRAM:
+In this project Aurdino uno board has been used for obtaining the output. The circut diagram is shown below as
+![image](https://user-images.githubusercontent.com/114398468/212620542-1d43ff3b-f32f-4c30-aea5-a2541f61e5ca.png)
+
 #### Install
 Clone this repo and use the following script to install [YOLOv5](https://github.com/ultralytics/yolov5). 
 ```
@@ -53,7 +58,5 @@ The fire detection results were fairly good even though the model was trained on
 | ![](results/val_batch2_labels_1.jpg) | ![](results/val_batch2_pred_1.jpg) |
 | ![](results/val_batch2_labels_2.jpg) | ![](results/val_batch2_pred_2.jpg) | 
 
-## IOT-DIAGRAM:
-In this project Aurdino uno board has been used for obtaining the output. The circut diagram is shown below as
-
-
+### REFERENCE:
+https://www.hackster.io/innovation4x/early-fire-detection-using-ai-dd27bf
