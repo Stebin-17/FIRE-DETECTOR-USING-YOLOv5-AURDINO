@@ -43,14 +43,14 @@ pip install -r requirements.txt
   
       ```bash
     ├── dataset
-        └── fire
-            ├── train
-            │     ├── images
-            │     └── labels
-            │ 
-            └── val
-                 ├── images
-                 └── labels
+           └── fire
+               ├── train
+               │     ├── images
+               │     └── labels
+               │ 
+               └── val
+                    ├── images
+                    └── labels
     ```
  
   
