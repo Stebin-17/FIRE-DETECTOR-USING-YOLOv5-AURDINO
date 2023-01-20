@@ -125,6 +125,7 @@ In this project Aurdino uno board has been used for obtaining the output. The ci
 
 ### OUTPUT:
 - The output obtained from this overall project is being given in the following link:-
+
   ___https://drive.google.com/file/d/1sIE28ReSW0fYNjWC1fpiZAdgjedDVWcm/view?usp=sharing___
 
 ### Prediction Results
