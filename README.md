@@ -126,7 +126,9 @@ In this project Aurdino uno board has been used for obtaining the output. The ci
 ### OUTPUT:
 - The output obtained from this overall project is being given in the following link:-
 
-  ___https://drive.google.com/file/d/1sIE28ReSW0fYNjWC1fpiZAdgjedDVWcm/view?usp=sharing___
+https://user-images.githubusercontent.com/114398468/213969656-9b1cb935-69b5-4350-81be-c18461fd8a96.mp4
+
+___https://drive.google.com/file/d/1sIE28ReSW0fYNjWC1fpiZAdgjedDVWcm/view?usp=sharing___
 
 ### Prediction Results
 The fire detection results were fairly good even though the model was trained only for a few epochs. However, I observed that the trained model tends to predict red emergency light on top of police car as fire. It might be due to the fact that the training dataset contains only a few hundreds of negative samples. We may fix such problem and further improve the performance of the model by adding images with non-labeled fire objects as negative samples. The [authors](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results) who created YOLOv5 recommend using about 0-10% background images to help reduce false positives. 
