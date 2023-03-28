@@ -1,6 +1,6 @@
 # Yolov5 for Fire Detection
 
-Fire detection task aims to identify fire or flame in a video and put a bounding box around it. This repo includes a demo on how to build a fire detection detector using YOLOv5 and AURDINO UNO..
+Fire detection task aims to identify fire or flame in a video and put a bounding box around it. This repo includes a demo on how to build a fire detection detector using YOLOv5 and AURDINO UNO.
 
 ### Hardwares Required
  - Aurdino IDE
